@@ -24,3 +24,34 @@ margin-top: 0;
 margin-bottom: 0;
 
 }
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  font-family: monospace;
+  color: rgb(0, 0, 0);
+}
+
+#ascii-background {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 10px); /* Celdas de 10x10 píxeles */
+  width: 100vw;
+  height: 100vh;
+  line-height: 10px;
+  font-size: 10px;
+  pointer-events: none;
+}
+
+  
+.tittle{
+font-size: 30px;
+font-family: monospace;
+background-color: red;
+
+}
